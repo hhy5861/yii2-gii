@@ -1,15 +1,15 @@
 {
-    "name": "cy/gii",
+    "name": "mike/gii",
     "authors": [
         {
-            "name": "ace",
-            "email": "sufei@cheyian.com"
+            "name": "mike",
+            "email": "hhy5861@163.com"
         }
     ],
     "require": {
         "yiisoft/yii2-gii": "*"
     },
     "autoload": {
-        "psr-4": { "cy\\gii\\": "src/" }
+        "psr-4": { "mike\\gii\\": "src/" }
     }
 }

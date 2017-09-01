@@ -7,12 +7,12 @@
 "repositories": [
     {
         "type": "vcs",
-        "url": "git@gitlab.oapol.com:yii/yii2-cy-gii.git"
+        "url": "git@github.com:hhy5861/yii2-gii.git"
     }
 ]
 ```
 
-2. 执行 `composer.phar require cy/gii`
+2. 执行 `composer.phar require "mike/gii:dev-master"`
 
 
 3. 修改配置
@@ -21,7 +21,7 @@
 if (!YII_ENV_PROD) {
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
-        'class' => 'cy\gii\Module',
+        'class' => 'mike\gii\Module',
     ];
 }
 ```

@@ -1,6 +1,6 @@
 <?php
 
-namespace cy\gii;
+namespace mike\gii;
 
 /**
  * Gii Module
@@ -12,7 +12,7 @@ class Module extends \yii\gii\Module
      */
     public $generators = [
         'model' => [
-            'class' => 'cy\gii\generators\model\Generator',
+            'class' => 'mike\gii\generators\model\Generator',
         ],
     ];
 

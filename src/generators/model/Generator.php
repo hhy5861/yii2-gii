@@ -1,6 +1,6 @@
 <?php
 
-namespace cy\gii\generators\model;
+namespace mike\gii\generators\model;
 
 /**
  * model生成器, 去掉 unique 属性验证
