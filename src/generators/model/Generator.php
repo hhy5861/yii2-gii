@@ -22,7 +22,7 @@ class Generator extends \yii\gii\generators\model\Generator
     /**
      * @var string
      */
-    public $template = 'cy';
+    public $template = 'mike';
 
     /**
      * @inheritdoc
