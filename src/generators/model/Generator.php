@@ -16,7 +16,7 @@ class Generator extends \yii\gii\generators\model\Generator
      * @var array
      */
     public $templates = [
-        'cy' => __DIR__ . '/default',
+        'mike' => __DIR__ . '/default',
     ];
 
     /**
